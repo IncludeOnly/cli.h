@@ -47,7 +47,7 @@ int main(int argc, char** argv){
 
 ```bash
 mv cli.h cli.c
-cc -o libcli.so cli.c -fPIC -D<LIBRARY>_IMPLEMENTATION -shared
+cc -o libcli.so cli.c -fPIC -DCLI_IMPLEMENTATION -shared
 mv cli.c cli.h
 ```
 
