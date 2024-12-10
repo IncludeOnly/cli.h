@@ -50,7 +50,6 @@ CLIAPI void cli_generate_format_string(char* buffer, cli_args_t args);
 
 CLIAPI void cli_help(cli_args_t args, const char* usage, const char* footer);
 
-#define CLI_IMPLEMENTATION
 #ifdef CLI_IMPLEMENTATION
 CLIAPI char* cli_shift_args(int *argc, char ***argv) {
     assert(*argc > 0);
